@@ -43,11 +43,11 @@ namespace TestKnoema
 
             var SignUpButton = driver.FindElement(_SignUpButton);
             SignUpButton.Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
             var Skip = driver.FindElement(_SkipLink);
             Skip.Click();
-            Thread.Sleep(1000);
+            Thread.Sleep(2000);
 
 
             var actualLogin = driver.FindElement(_userLogin).Text  ;
